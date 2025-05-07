@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header .top-bar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: #f0f0f0;
+  }
+  
+  .logo {
+    height: 50px;
+  }
+  
+  .search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+    padding: 8px;
+  }
+  
+  .icons a {
+    margin-left: 10px;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .menu {
+    background: #d9d9d9;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  .menu button, .menu select, .menu a {
+    margin-right: 10px;
+    padding: 8px 12px;
+  }
+  
+  .service-btn {
+    background: orange;
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .login-btn {
+    background: yellow;
+    color: black;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .product-details {
+    display: flex;
+    padding: 40px;
+  }
+  
+  .left-column img {
+    width: 400px;
+    height: auto;
+  }
+  
+  .right-column {
+    margin-left: 40px;
+  }
+  
+  .right-column h1 {
+    margin-bottom: 10px;
+  }
+  
+  .by, .sku, .price, .stock {
+    margin: 5px 0;
+  }
+  
+  .add-to-cart {
+    margin-top: 20px;
+  }
+  
+  .add-to-cart input[type="number"] {
+    width: 50px;
+    margin-left: 10px;
+  }
+  
+  .add-to-cart button {
+    background: #90ee90;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .description, .features {
+    margin-top: 30px;
+  }
+  
+  footer {
+    background: #e0e0e0;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+  }
+  
+  footer .social {
+    margin-bottom: 10px;
+  }

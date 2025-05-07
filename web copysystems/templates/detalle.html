@@ -1,0 +1,77 @@
+
+
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  
+  <meta charset="UTF-8">
+  <title>Detalles del Producto</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style2.css') }}">
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <img src="{{ url_for('static', filename='logo.png') }}" alt="Logo de la empresa" class="logo">
+      <input type="text" placeholder="Producto a buscar..." class="search-bar">
+      <div class="icons">
+        <a href="/carrito" class="cart-icon">🛒</a>
+        <a href="/login" class="user-icon">👤</a>
+      </div>
+    </div>
+    <nav class="menu">
+      <button>CANON</button>
+      <button>KONICA MINOLTA</button>
+      <button>RICOH</button>
+      <select>
+        <option>Insumos y Repuestos</option>
+      </select>
+      <a href="/servicio" class="service-btn">Servicio Técnico</a>
+      <a href="/login" class="login-btn">Iniciar Sesión</a>
+    </nav>
+  </header>
+
+  <main class="product-details">
+    <div class="left-column">
+      <img src="{{ url_for('static', filename='b258.png') }}" alt="Imagen del Producto">
+    </div>
+
+    <div class="right-column">
+      <h1>Producto, Marca, Modelo</h1>
+      <p class="by">por: aabbc</p>
+      <p class="sku">SKU: 00000</p>
+      <p class="price">S/.00,00</p>
+      <p class="stock">STOCK: 00</p>
+
+      <form action="/agregar_al_carrito" method="post" class="add-to-cart">
+        <label for="cantidad">Cantidad:</label>
+        <input type="number" id="cantidad" name="cantidad" value="1" min="1">
+        <button type="submit">Agregar al Carrito</button>
+      </form>
+
+      <section class="description">
+        <h2>Descripción</h2>
+        <p>Texto de descripción del producto, detallando características principales.</p>
+      </section>
+
+      <section class="features">
+        <h2>Características</h2>
+        <ul>
+          <li>Garantía: -----------</li>
+          <li>DPI: -------------</li>
+          <li>PPM: -------------</li>
+          <li>Color: -------------</li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer>
+    <div class="social">
+      <p>Síguenos:</p>
+      <a href="#">Facebook</a> | <a href="#">Instagram</a> | <a href="#">WhatsApp</a>
+    </div>
+    <p>Información adicional sobre tutoriales, soporte, etc.</p>
+  </footer>
+</body>
+</html>
