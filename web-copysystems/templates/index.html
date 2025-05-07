@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en" data-bs-theme="auto">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.145.0">
+    <title>CopySystems · Bootstrap v5.3</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
+
+    <script src="/docs/5.3/assets/js/color-modes.js"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    <link rel="apple-touch-icon" href="/docs/5.3/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+<link rel="manifest" href="/docs/5.3/assets/img/favicons/manifest.json">
+<link rel="mask-icon" href="/docs/5.3/assets/img/favicons/safari-pinned-tab.svg" color="#712cf9">
+<link rel="icon" href="/docs/5.3/assets/img/favicons/favicon.ico">
+<meta name="theme-color" content="#712cf9">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+
+    
+  
+
+  
+
+    
+    <header data-bs-theme="dark">
+      <div class="p-3 mb-3 bg-primary-subtle text-primary-emphasis"></div>
+            
+          </div>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+      </div>
+    </header>
+    <nav class="navbar bg-body-tertiary">
+      <div class="container-fluid">
+    
+        <a class="navbar-brand" href="#">
+          <img src="static/img.png" alt="img.png" width="90" height="40" class="d-inline-block align-text-top">
+          CopySystems 
+        </a>
+        
+        
+        <form class="d-flex" role="search">
+          <input class="form-control me-4" type="search" placeholder="Buscar" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Buscar</button>
+        </form>
+      </div>
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Botones centrados con separación uniforme</title>
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+      <style>
+          .botones-centrados {
+              display: flex;
+              justify-content: center; /* Centra los botones horizontalmente */
+              gap: 30px; /* Espacio uniforme entre botones */
+          }
+      </style>
+  </head>
+  <body>
+      <div class="botones-centrados"> <!-- Contenedor para centrar y separar botones -->
+          <button type="button" class="btn btn-primary dropdown-toggle">Fotocopiadoras</button>
+          <button type="button" class="btn btn-success dropdown-toggle">Artículos</button>
+          <button type="button" class="btn btn-warning dropdown-toggle">Insumos y Repuestos</button>
+          <button type="button" class="btn btn-outline-success">Servicios Técnicos</button>
+
+          <button type="button" class="btn btn-outline-success">Iniciar Sesión</button>
+      </div>
+  
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>
+  </nav>
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrusel</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      /* Estilos personalizados para el carrusel */
+      #carouselExampleInterval {
+        max-width: 2000px; /* Ajusta el ancho máximo del carrusel */
+        margin:  auto; /* Centra el carrusel en la página */
+      }
+      .carousel-inner img {
+        height: auto; /* Mantén la proporción de las imágenes */
+        max-height: 600px; /* Ajusta la altura máxima de las imágenes */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="static/portada.png" alt="portada.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="static/portada.png" alt="portada.png" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="static/portada.png" alt="portada.png" class="d-block w-100">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+    <!-- Bootstrap JS (necesario para que el carrusel funcione) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+  </html>
+
+
+  <main>
+  
+  <section class="py-5 text-center container">
+    <div class="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">COPYSYSTEMS</h1>
+        <p class="lead text-body-secondary">Venta de fotocopiadoras, Servicio Técnico Especializado, Insumos y Repuestos</p>
+        <p>
+          <a href="#" class="btn btn-primary my-2">Informacion</a>
+          <a href="#" class="btn btn-secondary my-2">Contactanos</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <div class="album py-5 bg-body-tertiary">
+    <div class="container">
+      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 g-3">
+        {% for p in data.prods %}
+          <div class="col"> 
+            <div class="card shadow-sm">
+              <svg class="bd-placeholder-img card-img-top" width="100%" height="25" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail" preserveAspectRatio="xMidYMid slice">
+                <title>Placeholder</title>
+                <rect width="100%" height="100%" fill="#55595c"/>
+                <text x="50%" y="50%" fill="#eceeef" dy=".3em">{{p.nombre}}</text>
+              </svg>
+              <img src="{{p.img}}" alt="c256.png" class="d-block w-100">
+              <div class="card-body">
+                <small class="text-body-secondary">ID:</small> <p class="card-text">{{p.id}}</p>
+                <p class="card-text">{{p.precio}}</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-warning my-2">Detalles</button>
+                    <button type="button" class="btn btn-success my-2">Agregar al carrito</button>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+        
+        
+        
+
+       
+       
+
+      </div>
+    </div>
+  </div>
+
+</main>
+<header data-bs-theme="dark">
+  
+  <div class="p-2 mb-2 bg-primary-subtle text-primary-emphasis"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-8 col-md-7 py-4">
+          <h4>Sobre nosotros</h4>
+          <p class="text-body-black">Empresa comcercial de ventas de fotocopiadoras, repuestos y servicios.</p>
+        </div>
+        <div class="col-sm-4 offset-md-1 py-4">
+          <h4>Contactos</h4>
+          <ul class="list-unstyled">
+            <li><a href="#" class="text-black">TIKTOK</a></li>
+            <li><a href="#" class="text-black">Facebook</a>https://www.facebook.com/p/COPY-Systems-100065411082402/?locale=es_LA</li>
+            <li><a href="#" class="text-black">Email </a>copysystems@gmail.com</li>
+          </ul>
+        </div>
+        
+      </div>
+<script defer src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"></script>
+<button class="transition delay-150 duration-300 ease-in-out ...">Button A</button>
+    </body>
+</html>
